@@ -30,21 +30,28 @@ This file contains a number of front-end interview questions that can be used wh
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
 * Talk about your preferred development environment.
 * Which version control systems are you familiar with?
+    Github.
 * Can you describe your workflow when you create a web page?
 * If you have 5 different stylesheets, how would you best integrate them into the site?
 * Can you describe the difference between progressive enhancement and graceful degradation?
 * How would you optimize a website's assets/resources?
+    I would use a minification process may be have a few cdns.
 * How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
 * Name 3 ways to decrease page load (perceived or actual load time).
+  Combined any like type files. use sprite sheet for images. minify code. you could use grunt for all this
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
+    I would change my settings in my text editor to whatever is best fit for the companies direction in this case.
 * Describe how you would create a simple slideshow page.
 * If you could master one technology this year, what would it be?
 * Explain the importance of standards and standards bodies.
+  With the web being the wild west I think it is important to have standards and standard bodies to push new tech forward and to continue to improve documentation for those standards.
 * What is Flash of Unstyled Content? How do you avoid FOUC?
+  It is when a web site loads and part or all of the styling of the site is not loaded so you see an ugly unstyled version of the website. Which could confuse users. You can avoid this by loading the styles first but that could casue some speed issues. you could also make the JavaScript not run untill all the styles have loaded.
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
 * What does CORS stand for and what issue does it address?
+    CORS stands for Cross-Origin Resource Sharing. It addresses the issue of a site making an http request to a different domain
 
 #### HTML Questions:
 
